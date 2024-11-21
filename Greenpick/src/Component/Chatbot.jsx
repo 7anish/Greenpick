@@ -67,7 +67,7 @@ const Chatbox = () => {
       {/* Chatbox Button */}
       <div className="chatbox__button">
         <button onClick={toggleState} id="btnnn">
-          <img src="/path/to/icon.jpg" alt="icon" />
+          <img src="/src/assets/icon.jpg" alt="icon" />
         </button>
       </div>
 
@@ -79,7 +79,7 @@ const Chatbox = () => {
         {/* Header */}
         <div className="chatbox__header">
           <div className="chatbox__image--header">
-            <img src="/path/to/downlod.png" alt="image" />
+            <img className=" object-scale-down h-20 w-20 padding inline-block float-left" src="/src/assets/downlod.png" alt="image" />
           </div>
           <div className="chatbox__content--header">
             <h4 className="chatbox__heading--header">GreenPicker</h4>
@@ -99,7 +99,7 @@ const Chatbox = () => {
             onKeyUp={handleKeyUp}
             className="chatbox__input"
           />
-          <button onClick={onSendButton} className="chatbox__send--footer">
+          <button onClick={onSendButton} className="rounded-lg px-4 py-2 hover:text-white duration-300">
             Send
           </button>
         </div>

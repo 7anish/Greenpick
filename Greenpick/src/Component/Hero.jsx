@@ -46,8 +46,7 @@ const Hero = () => {
                 <p
                     className="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-28"
                 >
-                    Invest intelligently and discover a better way to manage your entire
-                    wealth easily.
+                    Recycle Like A Boss.
                 </p>
                 {/* <a
                     href="javascript:;"
