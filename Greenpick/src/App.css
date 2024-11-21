@@ -17,11 +17,14 @@
 }
 
 .chatbox__support {
+    position: fixed;
+    right: 80px;
+    bottom: 40px;
     display: flex;
     flex-direction: column;
     background: #eee;
-    width: 300px;
-    height: 350px;
+    width: 400px;
+    height: 450px;
     z-index: -123456;
     opacity: 0;
     transition: all .5s ease-in-out;
@@ -194,7 +197,7 @@
 
 #btnnn {
     position: fixed;
-    bottom: 100px;
+    bottom: 20px;
     right: 50px;
     scale: 75%;
 }
