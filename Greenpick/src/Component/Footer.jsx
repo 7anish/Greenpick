@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 
 const Footer = () => {
     return (
-        <div className='w-full h-fit p-5 '>
+        <div className='w-full h-fit '>
             <footer class="w-full py-3 bg-[#E3F2F5] flex items-center justify-center rounded-2xl">
             <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div class="max-w-3xl mx-auto">
