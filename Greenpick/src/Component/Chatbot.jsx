@@ -62,11 +62,6 @@ const Chatbox = () => {
     }
   };
 
-<<<<<<< HEAD
-=======
-const Chatbot = () => {
-    
->>>>>>> 39cdb78111709359668a8d23ee652aab87d17248
   return (
     <div className="chatbox">
       {/* Chatbox Button */}
