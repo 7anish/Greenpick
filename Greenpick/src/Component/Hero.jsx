@@ -46,7 +46,7 @@ const Hero = () => {
                 <p
                     className="max-w-sm mx-auto text-center text-base font-normal leading-7 text-gray-500 mb-28"
                 >
-                    Recycle Like A Boss.
+                    Turn waste into value.
                 </p>
                 {/* <a
                     href="javascript:;"

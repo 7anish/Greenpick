@@ -21,7 +21,7 @@ const Ourprocess = () => {
 
                     <div class="lg:col-span-5 flex items-center">
                         <p class="text-gray-600 text-lg">
-                            A simple, four-step process to circulate your waste back into the economy as a completely new product.
+                            A simple, five -step process to circulate your waste back into the economy as a completely new product.
                         </p>
                     </div>
                 </div>

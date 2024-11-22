@@ -72,7 +72,7 @@ const Chatbox = () => {
 
             {/* Chatbox Support */}
             <div
-                className={`chatbox__support fixed bottom-16 right-10 ${state ? 'chatbox--active' : ''}`}
+                className={`chatbox__support ${state ? 'chatbox--active' : ''}`}
                 ref={chatboxRef}
             >
                 {/* Header */}
