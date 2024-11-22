@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const SchedulePickupForm = () => {
+  const navigate = useNavigate()
   const [formData, setFormData] = useState({
     date: "",
     time: "",
@@ -108,10 +110,9 @@ const SchedulePickupForm = () => {
               </div>
             </div>
             <button
-              class="sm:w-fit w-full group px-3.5 py-2 bg-green-50 hover:bg-green-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
+              class="sm:w-fit w-full group px-3.5 py-2 bg-green-50 hover:bg-green-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex cursor-pointer" onClick={() => navigate('/rates')}>
               <span
-                class="px-1.5 text-green-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">Read
-                More</span>
+                class="px-1.5 text-green-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">Explore Rates</span>
               <svg class="group-hover:translate-x-0.5 transition-all duration-700 ease-in-out"
                 xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                 <path d="M6.75265 4.49658L11.2528 8.99677L6.75 13.4996" stroke="#16A34A" stroke-width="1.6"
