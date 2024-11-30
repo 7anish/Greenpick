@@ -21,7 +21,7 @@ const Chatbox = () => {
         setMessages((prevMessages) => [...prevMessages, userMessage]);
 
         try {
-            const response = await fetch('https://3bb6-2409-40d2-22-a8b7-157d-789d-d5e1-38f8.ngrok-free.app/predict', {
+            const response = await fetch('https://d492-59-145-191-138.ngrok-free.app/predict', {
                 method: 'POST',
                 body: JSON.stringify({ message: text }),
                 mode: 'cors',
