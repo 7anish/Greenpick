@@ -19,7 +19,7 @@
     position: fixed;
     right: 65px;
     bottom: 60px;
-    display: flex;
+    display: none;
     flex-direction: column;
     background: #eee;
     width: 400px;
@@ -31,6 +31,7 @@
 
 
 .chatbox--active {
+    display: flex;
     transform: translateY(-40px);
     z-index: 123456;
     opacity: 1;
