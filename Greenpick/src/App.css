@@ -17,7 +17,7 @@
 
 .chatbox__support {
     position: fixed;
-    right: 65px;
+    right: 25px;
     bottom: 60px;
     display: none;
     flex-direction: column;
@@ -201,6 +201,6 @@
 #btnnn {
     position: fixed;
     bottom: 20px;
-    right: 50px;
+    right: 20px;
     scale: 75%;
 }
